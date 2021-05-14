@@ -1,5 +1,6 @@
 function DNAStrand(dna){
     var result = '';
+    
     var str = dna.split('').filter((nucleotide) => {
       if(nucleotide == 'A') {
         result += 'T'
