@@ -12,6 +12,5 @@ function DNAStrand(dna){
         result += 'C'
       } 
     });
-  
     return result;
   }
